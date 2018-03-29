@@ -1,0 +1,17 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+	<title>Portada | Mi Web Personal</title>
+{% endblock %}
+
+{% block content %}
+	<h2>Portada</h2>
+	<p>Esto es la portada</p>
+{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block header %}
+	<h1>Sergio Venguiarrutti</h1>
+	<span class="subheading">Ingeniero Industrial</span>
+{% endblock %}
